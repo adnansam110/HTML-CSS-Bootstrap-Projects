@@ -1,0 +1,103 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+.main-header{
+    display: flex;
+    position: relative;
+    background-color: #596994;
+    background-attachment: fixed;
+    height: 80px;
+    padding-top: 10px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-header h1{
+    position: absolute;
+    left: 10%;
+    }
+.main-header .address{
+    position: absolute;
+    left: 40%;
+    padding-top: 10px;
+}
+.main-header .timing{
+    position: absolute;
+    left: 60%;
+    padding-top: 10px;
+}
+.main-header .phone{
+    position: absolute;
+    left: 80%;
+    padding-top: 10px;
+}
+.nav-bar
+{
+    position: absolute;
+    display: flex;
+    margin-left:100px;
+    top: 70px;
+    color:black;
+    background-color:white;
+    border-radius:5px ;
+    height: 50px;
+    font-size: 16px;
+    
+    
+}
+ul{
+    padding-top: 10px;
+}
+li{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+li input{
+    margin-left: 410px;
+    height: 30px;
+    width: 200px;
+}
+.list-items{
+    margin-left:40px;
+}
+.active
+{
+    color: chocolate;
+}
+.main{
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-image: url('img1.jpg');
+    background-size: 100vw;
+    text-align: center;
+}
+.main-content{
+    margin-top: 35vh;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+.head-main{
+    padding-bottom: 20px;
+    font-size: 70px;
+}
+.btn{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ED6304;
+    color: white;
+    font-size: 15px;
+}
+.btn:hover
+{ 
+    opacity: 0.5;
+    transform: scale(0.98);
+    cursor: pointer;
+}
